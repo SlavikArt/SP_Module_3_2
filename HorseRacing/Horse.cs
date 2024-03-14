@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HorseRacing
 {
-    internal class Horse
+    public class Horse
     {
         public string Name { get; private set; }
         public int Distance { get; private set; }
